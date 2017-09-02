@@ -1,0 +1,13 @@
+Pig Latin Translator
+
+Variables
+var input = string input into form area
+var button = button to initiate function
+var output = pushed converted words to be converted back to string
+var vowels = vowels to run loop character check on each word
+
+-input string
+-convert string to array
+-start loop function for each word in the array
+-check char1 on each word against VARvowels
+-if statement if matches, then add "way", else move char1 to end of word and add "ay"
