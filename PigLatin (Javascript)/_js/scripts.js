@@ -1,3 +1,5 @@
+//uploaded to github 9/1/2017 11:42pm PST
+
 // var phrase = "Anthony eats oats by the bay while laying in hay";
 
 document.getElementById('transBtn').addEventListener('click', wordCheck);
