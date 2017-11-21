@@ -1,4 +1,4 @@
-  //uploaded to github 9/1/2017 11:42pm PST
+//uploaded to github 9/1/2017 11:42pm PST
 
 // var phrase = "Anthony eats oats by the bay while laying in hay";
 
@@ -8,7 +8,7 @@ function wordCheck() {
   var phrase = "Anthony eats goats";
   // var phrase = document.getElementById("input").value;
   var output = [];
-  var vowels = ["a","e","i","o","u","A","E","I","O","U"];
+  var vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
   var input = phrase.split(" ");
   var count = 1;
 
@@ -24,6 +24,7 @@ function wordCheck() {
             output.push(input[i]);
             input[i] = input[i+1];
             console.log("---------------------------------------------PUSH IT!---->");
+            console.log("YUPPPPP!");
             console.log("");
             console.log("");
 
