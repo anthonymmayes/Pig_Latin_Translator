@@ -33,20 +33,6 @@ function wordCheck() {
             console.log("");
 
         }
-
-
-      // if(input[i].charAt(0) === vowels[y].charAt(0)){
-      //   console.log("Test Run: #" + count + " IT's A MATCH!");
-      //   input[i] = input[i] + "way";
-      //   output.push(input[i]);
-      //   input[i] = input[i+1];
-      //   console.log("---------------------------------------------PUSH IT!---->");
-      //   console.log("");
-      //   console.log("");
-      //
-      // } else {
-      //     console.log('');
-      // }
     }
   }
 
