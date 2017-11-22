@@ -23,6 +23,8 @@ function wordCheck() {
             input[i] = input[i] + "way";
             output.push(input[i]);
             input[i] = input[i+1];
+            vowels[y] = vowels[y=0];
+
             console.log("---------------------------------------------PUSH IT!---->");
             console.log("YUPPPPP!");
             console.log("");
@@ -32,13 +34,16 @@ function wordCheck() {
           case false:
             console.log("NOPE");
             console.log("");
-
+            break;
         }
     }
+    if(input[i]!=vowels[i]){
+      var firstLetter = input[i].charAt(0);
+      output.push(input[i].substring(1) + firstLetter + "ay");
+    } else {break;}
   }
 
   output = output.join(" ");
-  console.log(input);
   console.log(output);
   document.getElementById("outputPigLatin").innerHTML = output;
 }
